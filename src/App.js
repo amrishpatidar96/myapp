@@ -91,9 +91,9 @@ function App() {
   }
 
   return (
-    <div className=" bg-gray-200 w-screen min-h-screen max-h-max">
+    <div className="flex bg-gray-200 w-screen min-h-screen max-h-max justify-center">
      
-     <div className="flex flex-col md:justify-items-center">
+     <div className="flex flex-col w-full sm:w-11/12 md:w-3/4 lg:w-2/5 xl:w-1/2">
      <div className="flex flex-col">
         <form
           onSubmit={submitHandler.bind(this)}
